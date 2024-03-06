@@ -9,7 +9,7 @@ public class Ejemplo {
         FabricaPersonaje fabricaGuerrero = new FabricaGuerrero("Conan", 100);
         Personaje guerrero = fabricaGuerrero.crearPersonaje();
 
-        System.out.println("Creando personaje Guerrero...");
+        System.out.println("Creando personaje Guerrero...1");
         guerrero.mostrarInformacion();
 
         System.out.println();
