@@ -20,4 +20,8 @@ public class Player {
             listaPersonajes.add(builder.build());
     }
 
+    public void adicionarPersonaje(Personaje personaje){
+        listaPersonajes.add(personaje);
+    }
+
 }
